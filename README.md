@@ -51,7 +51,7 @@ git reset --haard HEAD~
 git branch new_branch
 ```
 14) Оформил отчет в файле `README.md`
-15) Получил историю операций в форматированном виде ([рис. 15]()).
+15) Получил историю операций в форматированном виде ([рис. 15](https://github.com/dalucker/LR6/blob/new_branch/Photo/15.png)).
 ```sh
 git log --pretty=format:'%h - %cd - %an - %s' --date=format:'%F %R'
 ```
