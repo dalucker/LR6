@@ -28,9 +28,13 @@ git log origin/branch1
 ```sh
 git branch -v
 ```
-9) Выполнил слияние в ветку `master`, разрешив конфликт ([рис. 9](https://github.com/dalucker/LR6/blob/new_branch/Photo/9.png), [рис. 10](https://github.com/dalucker/LR6/blob/new_branch/Photo/10.png)).
+9) Выполнил слияние в ветку `master`, разрешил конфликт, вызвав внутрениий текстовый редактор Git и выбрав, какие изменения оставить и какие отклонить ([рис. 9](https://github.com/dalucker/LR6/blob/new_branch/Photo/9.png), [рис. 10](https://github.com/dalucker/LR6/blob/new_branch/Photo/10.png)).
 ```sh
 git merge origin/branch1
+```
+Команда для вызова текстового редактора:
+```sh
+nano mergefile.txt
 ```
 10) Удалил побочную ветку после успешного слияния ([рис. 11](https://github.com/dalucker/LR6/blob/new_branch/Photo/11.png)).
 ```sh
