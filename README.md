@@ -44,7 +44,7 @@ git commit -m "comment"
 ```
 12) Сделал откат коммита ([рис. 13](https://github.com/dalucker/LR6/blob/new_branch/Photo/13.png))
 ```sh
-git reset --haard HEAD~
+git reset --hard HEAD~
 ```
 13) Создал ветку для отчета ([рис. 14](https://github.com/dalucker/LR6/blob/new_branch/Photo/14.png)).
 ```sh
